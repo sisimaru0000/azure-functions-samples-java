@@ -23,13 +23,13 @@ repositories {
 }
 
 azurefunctions {
-    resourceGroup = 'java-functions-group'
+    resourceGroup = 'rg-dev-FIXGateway'
     appName = 'azure-functions-sample'
     pricingTier = 'Consumption'
-    region = 'westus'
+    region = 'Japan East'
     runtime {
-      os = 'Windows'
-      javaVersion = 'Java 8'
+      os = 'Linux'
+      javaVersion = 'Java 11'
     }
     auth {
       type = 'azure_cli'
